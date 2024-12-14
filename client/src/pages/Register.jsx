@@ -55,7 +55,7 @@ const Button = styled.button`
 
 `
 const Name = styled.h1`
-    font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine';
     font-size: 50px;
 `
 
@@ -74,7 +74,6 @@ const Register = () => {
         e.preventDefault();
         const user = {...inputs}
         AddUser(user, dispatch)
-        history.push("/")
     }
 
   return (

@@ -68,7 +68,7 @@ const Link = styled.a`
     margin-bottom: 10px;
 `
 const Name = styled.h1`
-    font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine';
     font-size: 50px;
 `
 const Login = () => {

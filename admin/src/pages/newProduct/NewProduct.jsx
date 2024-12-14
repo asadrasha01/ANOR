@@ -110,7 +110,7 @@ export default function NewProduct() {
           <select name="categories" onChange={handleChange}>
             <option value="ikat">ikat</option>
             <option value="casual">casual</option>
-            <option value="other">other</option>
+            <option value="more">more</option>
           </select>
         </div>
         <div className="addProductItem">
